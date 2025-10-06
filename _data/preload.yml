@@ -1,2 +1,9 @@
-images: []
+images:
+- added: '2025-10-06 17:23:16.550468'
+  iiif: true
+  thumbnail: ''
+  title: ''
+  url: https://cudl.lib.cam.ac.uk//iiif/MS-GG-00001-00001
+  user: Andy Corrigan
 settings: {}
+version: '2.1'
