@@ -1,0 +1,38 @@
+---
+canvas: "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988"
+order: 9
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Diagram of the regions of the human head.\nProbably made between 1307 and 1350. \n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2025-10-06T18:06:21.727Z",
+            "modified": "2025-10-06T18:10:27.128Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://cudl.lib.cam.ac.uk//iiif/MS-GG-00001-00001",
+                "type": "Manifest"
+            },
+            "id": "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1781.116455078125,3899.416259765625,1549.374755859375,1765.026123046875"
+        }
+    },
+    "id": "c6090fc5-e6d3-48a6-9075-8caa33dcc088.json",
+    "motivation": "commenting"
+}
