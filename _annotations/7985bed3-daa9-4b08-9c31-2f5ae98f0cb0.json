@@ -3,21 +3,27 @@ canvas: "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Memory",
-            "purpose": "commenting",
+            "created": "2025-10-06T18:05:41.276Z",
             "creator": {
                 "id": "IrisBox",
                 "name": "Andy Corrigan"
             },
-            "created": "2025-10-06T18:05:41.276Z",
-            "modified": "2025-10-06T18:05:43.032Z"
+            "modified": "2025-10-06T18:14:14.599Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Memory?"
         }
     ],
+    "id": "7985bed3-daa9-4b08-9c31-2f5ae98f0cb0.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2941.16552734375\" cy=\"4553.935546875\" r=\"88.31127114632244\"></circle></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://cudl.lib.cam.ac.uk//iiif/MS-GG-00001-00001",
@@ -25,13 +31,7 @@ order: 8
             },
             "id": "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"2941.16552734375\" cy=\"4553.935546875\" r=\"88.31127114632244\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7985bed3-daa9-4b08-9c31-2f5ae98f0cb0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
