@@ -1,0 +1,37 @@
+---
+canvas: "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cogitation",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2025-10-06T18:05:17.636Z",
+            "modified": "2025-10-06T18:05:21.250Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://cudl.lib.cam.ac.uk//iiif/MS-GG-00001-00001",
+                "type": "Manifest"
+            },
+            "id": "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2822.3717041015625\" cy=\"4340.980473748012\" r=\"92.65771984176172\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2995d07a-a1e9-4cf5-99e9-f59b4fdc60ad.json",
+    "motivation": "commenting"
+}
