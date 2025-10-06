@@ -1,0 +1,37 @@
+---
+canvas: "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Common Sense",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2025-10-06T18:04:29.965Z",
+            "modified": "2025-10-06T18:04:35.033Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://cudl.lib.cam.ac.uk//iiif/MS-GG-00001-00001",
+                "type": "Manifest"
+            },
+            "id": "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"2395.7755126953125\" cy=\"4160.3192138671875\" r=\"99.61167603845585\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b7fb523c-244d-45a2-b898-20d55b591c37.json",
+    "motivation": "commenting"
+}
