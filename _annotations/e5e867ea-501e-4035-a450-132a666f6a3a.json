@@ -1,0 +1,39 @@
+---
+canvas: "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Middle part of the brain",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2025-10-06T17:20:20.958Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://cudl.lib.cam.ac.uk//iiif/MS-GG-00001-00001",
+                "type": "Manifest"
+            },
+            "id": "http://cudl.lib.cam.ac.uk/iiif/MS-GG-00001-00001/canvas/988",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2619.918212890625,3963.21875 2932.635986328125,4038.117431640625 2950.4552164742954,3963.7183921165665 2637.7374430367954,3888.8197104759415\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e5e867ea-501e-4035-a450-132a666f6a3a.json",
+    "motivation": "commenting"
+}
